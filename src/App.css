@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+
+#links{
+
+    text-decoration: none;
+    padding-left: 20px;
+    
+    
+    
+}
+
+
+
+h1{
+
+    color: white;
+
+    font-size: 40px;
+
+    padding-bottom: 50px;
+}
+
+img:hover{
+
+transform: scale(1.2,1.2);
+transition-property: transform;
+transition-duration: 0.3s;
+
+}
+
+/* .hoverbox:hover{
+
+    transform: translateX(200px);
+}
+
+.hoverbox{
+
+    background-color: black;
+} */
+
+.hoverbox {
+    border: 1px solid black;
+    width: 200px;
+    height: 1000px;
+    position: absolute;
+    top: -100px;
+    margin-top: 20px;
+    margin-left: -199.9px;
+    background-color:black;
+    padding: 40px;
+    
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hoverbox:hover {
+    transform: translateX(200px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hoverbox a {
+    text-decoration: none;
+  }
+  
+  .hoverbox h1 {
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .hoverbox h1:hover {
+    color: #ffcc00;
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .additional{
+
+    border: 1px solid white;
+    height: 80px;
+    width: 250px;
+    margin-left: 8px;
+  }
+  
+  .play{
+
+    margin-left: 20px;
+
+    margin-top: 30px;
+
+    color : red;
+
+    font-size: 25px;
+
+   }
+
+   .plus{
+
+     color:white;
+
+     margin-left: 170px;
+
+
+   }
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: black;
+    padding: 50px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .remember-me {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .need-help {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  
